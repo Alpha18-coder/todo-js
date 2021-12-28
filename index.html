@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9b1a125b6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h1>todos</h1>
+        <form id="form">
+
+            <div class="form-group">
+                <input 
+                        type="text"
+                        id="input"
+                        class="input"
+                        autocomplete="off"
+                        placeholder="What needs to be done?" 
+                />
+               
+                <button class="add-btn"><i class="fas fa-plus"></i></button>
+            </div>
+            <small>Left click to toggle complete | Right click to delete the todo.</small>
+
+            <ul class="todo-list" id="todos">
+
+            </ul>
+        </form>
+    </main>
+</body>
+<script src="script.js" defer></script>
+</html>
